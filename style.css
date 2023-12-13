@@ -1,6 +1,10 @@
 h1 {
-  font-family: monospace, serif;
   color: rgb(53, 53, 255)
+}
+
+h1,
+body {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .btn {
