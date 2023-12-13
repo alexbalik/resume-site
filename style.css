@@ -1,0 +1,18 @@
+h1 {
+  font-family: monospace, serif;
+  color: rgb(53, 53, 255)
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #333333;
+  background-color: rgb(255, 133, 19);
+}
+
+.center {
+  text-align: center;
+}
+
+
+/* Next step: create a nice looking button that takes you to projects pg? */
