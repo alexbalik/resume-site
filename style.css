@@ -18,5 +18,9 @@ body {
   text-align: center;
 }
 
+.room-below {
+  margin-bottom: 30px;
+}
+
 
 /* Next step: create a nice looking button that takes you to projects pg? */
