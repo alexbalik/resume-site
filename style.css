@@ -9,16 +9,29 @@ html {
 }
  */
 
-/* * {
+* {
   border: 2px solid red;
-} */
+  box-sizing: border-box;
+}
 
 .center {
+  margin: auto;
+  /* width: 200px; */
   text-align: center;
 }
 
+.contact-info {
+  width: 200px;
+}
+
+.menu {
+  width: 100px;
+
+}
+
 h1 {
-  color: rgb(53, 53, 255)
+  color: rgb(53, 53, 255);
+  width: 200px;
 }
 
 h1,
@@ -31,11 +44,13 @@ body {
   padding: 0.5rem;
   border: 1px solid #333333;
   background-color: rgb(255, 133, 19);
-  margin-right: 5px;
+  /* margin-right: 5px; */
+  height: 35px;
+  width: 100px;
 }
 
 .room-below {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
@@ -43,12 +58,15 @@ body {
 }
 
 ul {
-  display: flex;
-  flex-direction: row;
   list-style: none;
-  justify-content: center;
   padding-inline-start: unset;
 }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
 
 
 
