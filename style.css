@@ -12,16 +12,29 @@ html {
 * {
   /* border: 2px solid red; */
   box-sizing: border-box;
+  /* background-color: brown; */
 }
+
+/* body,
+div,
+h1,
+h2,
+ul,
+a {
+  background-color: white;
+/* } */ question: How do I make a brown background with everything else staying white without all this code? */
 
 .banner {
   margin-bottom: 80px;
 }
 
-.center {
-  margin: auto;
-  /* width: 200px; */
+.center-text {
+  margin: 0 auto;
   text-align: center;
+}
+
+.center-content {
+  justify-content: center;
 }
 
 .contact-info {
@@ -45,6 +58,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+div .heading {
+  margin-bottom: 20px;
+}
+
 .btn {
   text-decoration: none;
   padding: 0.5rem;
@@ -56,7 +73,7 @@ body {
 }
 
 .room-below {
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .btn:hover {
@@ -90,6 +107,10 @@ img {
   justify-content: center;
   align-items: center;
   margin-right: 100px;
+}
+
+.about-text {
+  width: 1000px;
 }
 
 .block {
