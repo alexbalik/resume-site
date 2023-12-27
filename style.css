@@ -46,6 +46,7 @@ a {
   /* margin-left: 350px;
   margin-top: 100px; */
   margin: auto;
+  padding-left: 10px;
 }
 
 h1 {
@@ -62,7 +63,7 @@ div .heading {
   margin-bottom: 20px;
 }
 
-.btn {
+/* .btn {
   text-decoration: none;
   padding: 0.5rem;
   border: 1px solid #333333;
@@ -70,19 +71,27 @@ div .heading {
   height: 35px;
   width: 80px;
   text-align: center;
-}
+} */
 
 .room-below {
   margin-bottom: 80px;
 }
 
-.btn:hover {
-  background-color:rgb(0, 255, 76);
+.test:hover {
+  color:rgb(243, 0, 122);
 }
 
 ul {
   list-style: none;
   padding-inline-start: unset;
+}
+
+ul.menu {
+  border-left: 2px solid blue;
+}
+
+.menu-spacing {
+  margin-bottom: 15px;
 }
 
 .flex {
