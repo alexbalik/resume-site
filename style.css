@@ -10,7 +10,7 @@ html {
  */
 
 * {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   box-sizing: border-box;
   /* background-color: brown; */
 }
@@ -103,10 +103,19 @@ img {
   width: auto;
 }
 
+div h3 {
+  height: 1.5em;
+  width: 5em;
+  text-align: center;
+  margin-left: 208px;;
+  margin-top: 150px;
+}
+
 .home-left {
   height: 500px;
   width: 500px;
   margin-left: 100px;
+  display: block;
 }
 
 .home-right {
@@ -120,7 +129,4 @@ img {
 
 .about-text {
   width: 1000px;
-}
-
-.block {
 }
